@@ -14,7 +14,7 @@
 - Call a render function and append its return value to a grabbed element in the DOM
 - Use a for/of loop to loop through an array and for each item, append an element to the DOM using a render function
 - Create modular code using import and export with named exports.
-
+- Update multiple pieces of numerical state, each of which can be incremented or decremented on click (i.e, times clicked for multiple buttons).
 
 [Buggy Soccer Scorekeeper](https://github.com/alchemycodelab/buggy-js-soccer-scorekeeper)
 
