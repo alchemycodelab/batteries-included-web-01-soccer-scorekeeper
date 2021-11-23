@@ -1,25 +1,28 @@
-## The Golden Rule: 
+# Deliverable 03 - Soccer Scorekeeper
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
+[Buggy Soccer Scorekeeper](https://github.com/alchemycodelab/buggy-js-soccer-scorekeeper)
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+[Half Baked Soccer Scorekeeper](https://github.com/alchemycodelab/half-baked-js-soccer-scorekeeper)
 
-## Making a plan
+### Live Example:
+https://alchemycodelab.github.io/js-soccer-scorekeeper/
 
-1) **Make a drawing of your app. Simple "wireframes"**
-1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
-1) **For each HTML element ask: Why do I need this?** 
-1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
-1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
-1) **Think about how to validate each of your features according to a Definition of Done**
-1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+![](./assets/soccer-scorekeeper.png)
 
-Additional considerations:
-- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
-- Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
-  - What are the key/value pairs? 
-  - What arrays might you need? 
-  - What needs to live in a persistence layer?
-- Is there some state we need to initialize?
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+| User should be able to . . .                                                         |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|        1 |
+
+| Events                                                                               |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| On load, see a form and empty current game div                                             |        1 |
+| On submit, add the team names to the current game div                                      |        1 |
+| On clicking add or subtract, increment and decrement the correct score in the current game div|     1 |
+| On clicking finish, empty the current game div and add the current game to the "past games" div. All past games should be visible in this div. |1|
+
+| Functions                                                              |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| IMPURE: `displayCurrentGameEl()` | 1|
+| IMPURE: `displayAllGames()` : clears out and appends to games div | 1|
+| PURE: `renderGame(game)` : returns DOM node | 1|
+| PURE: `renderTeam(name, score)` :  return DOM node | 1|
