@@ -1,4 +1,4 @@
-# Deliverable 03 - Soccer Scorekeeper
+# Soccer Scorekeeper
 
 [Buggy Soccer Scorekeeper](https://github.com/alchemycodelab/buggy-js-soccer-scorekeeper)
 
