@@ -18,12 +18,10 @@
 
 [Buggy Soccer Scorekeeper](https://github.com/alchemycodelab/buggy-js-soccer-scorekeeper)
 
-[Half Baked Soccer Scorekeeper](https://github.com/alchemycodelab/half-baked-js-soccer-scorekeeper)
-
 ### Live Example:
 https://alchemycodelab.github.io/js-soccer-scorekeeper/
 
-![](./assets/soccer-scorekeeper.png)
+![](assets/soccer-scorekeeper.png)
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
