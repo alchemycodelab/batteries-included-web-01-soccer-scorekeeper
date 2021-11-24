@@ -21,8 +21,6 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-soccer-scorekeeper/
 
-<img src="https://raw.githubusercontent.com/alchemycodelab/half-baked-js-soccer-scorekeeper/main/assets/soccer-scorekeeper.png" width="1000" height="560" />
-
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
