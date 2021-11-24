@@ -21,7 +21,7 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-soccer-scorekeeper/
 
-![](https://github.com/alchemycodelab/half-baked-js-soccer-scorekeeper/blob/main/assets/soccer-scorekeeper.png)
+![](https://raw.githubusercontent.com/alchemycodelab/half-baked-js-soccer-scorekeeper/main/assets/soccer-scorekeeper.png)
 
 
 | User should be able to . . .                                                         |             |
