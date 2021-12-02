@@ -19,7 +19,7 @@
 [Buggy Soccer Scorekeeper](https://github.com/alchemycodelab/buggy-js-soccer-scorekeeper)
 
 ### Live Example:
-https://alchemycodelab.github.io/js-soccer-scorekeeper/
+https://alchemycodelab.github.io/web-01-soccer-scorekeeper/
 
 
 | User should be able to . . .                                                         |             |
