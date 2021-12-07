@@ -67,6 +67,16 @@ finishGameButton.addEventListener('click', () => {
     displayCurrentGameEl();
 });
 
+// for the sake of immutability, always call this function when referring to your state :)
+function createGameObject() {
+    return {
+        name1: name1,
+        score1: score1,
+        name2: name2,
+        score2: score2
+    }
+}
+
 
 function displayCurrentGameEl() {
     // clear out the current game div
