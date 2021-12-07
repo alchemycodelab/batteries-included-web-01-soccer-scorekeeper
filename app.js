@@ -68,7 +68,7 @@ finishGameButton.addEventListener('click', () => {
     displayCurrentGameEl();
 });
 
-// for the sake of immutability, always call this function when referring to your state :)
+// for the sake of immutability, always call this function when making an object out of your state :)
 function createGameObject() {
     return {
         name1: name1,
