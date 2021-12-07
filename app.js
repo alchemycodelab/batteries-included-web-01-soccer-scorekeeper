@@ -74,7 +74,7 @@ function createGameObject() {
         score1: score1,
         name2: name2,
         score2: score2
-    }
+    };
 }
 
 
