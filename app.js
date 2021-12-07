@@ -35,7 +35,8 @@ nameForm.addEventListener('submit', (e) => {
 teamOneAddButton.addEventListener('click', () => {
     // increment the current state for team one's score
     
-    displayCurrentGameEl();});
+    displayCurrentGameEl();
+});
 
 teamTwoAddButton.addEventListener('click', () => {
     // increment the current state for team two's score
@@ -96,6 +97,3 @@ function displayAllGames() {
     // loop through the past games in state
     // render and append a past game for each past game in state
 }
-
-
-displayCurrentGameEl();
