@@ -58,26 +58,15 @@ teamTwoSubtractButton.addEventListener('click', () => {
 
 finishGameButton.addEventListener('click', () => {
     
-    // add the current game to an array of games in state.
-    // HINT: it will be helpful to keep track of these games as objects with 4 properties, one for each piece of state we're tracking
-
+    // add the current game to an array of games in state
+    // it will be helpful to keep track of these games as objects with 4 properties, one for each piece of state we're tracking
+    // (be sure to make a new object. do not declare the objecti n global scope and mutate it for reuse)
     displayAllGames();
 
     // reset the initial state to start with a new form
 
     displayCurrentGameEl();
 });
-
-// for the sake of immutability, always call this function when making an object out of your state :)
-function createGameObject() {
-    return {
-        name1: name1,
-        score1: score1,
-        name2: name2,
-        score2: score2
-    };
-}
-
 
 function displayCurrentGameEl() {
     // clear out the current game div
@@ -86,7 +75,8 @@ function displayCurrentGameEl() {
     // change the label to show team two's name;
 
     // call the render game function to create a game element
-    
+    // (be sure to make a new object to pass to this function. do not declare the object in global scope and mutate it for reuse)
+
     // append the element to the cleared out current game div
 }
 
