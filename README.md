@@ -21,19 +21,6 @@
 ### Live Example:
 https://alchemycodelab.github.io/web-01-soccer-scorekeeper/
 
-```js
-assumptions you can make:
-
-The table name in supabase is `games`
-
-The games are stored in the database using this data model:
-{
-   name1: ,
-   name2: ,
-   score1: ,
-   score2: ,
-}
-```
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
@@ -42,9 +29,9 @@ The games are stored in the database using this data model:
 | Events                                                                               |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | On load, see a form and empty current game div                                             |        1 |
-| On submit, add the team names to the current game div                                      |        1 |
-| On clicking add or subtract, increment and decrement the correct score in the current game div|     1 |
-| On clicking finish, empty the current game div and add the current game to the "past games" div. All past games should be visible in this div. |2|
+| On submit, add the team names to the current game div.  Call `displayCurrentGameEl` to do this DOM work                                   |        1 |
+| On clicking add or subtract, increment and decrement the correct score in the current game div. Call `displayCurrentGameEl` to do this DOM work |     1 |
+| On clicking finish, empty the current game div and add the current game to the "past games" div. All past games should be visible in this div. Call `displayAllGames` to do this DOM work. |2|
 
 | Functions                                                              |             |
 | :----------------------------------------------------------------------------------- | ----------: |
