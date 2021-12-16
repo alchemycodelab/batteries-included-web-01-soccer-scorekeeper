@@ -21,6 +21,19 @@
 ### Live Example:
 https://alchemycodelab.github.io/web-01-soccer-scorekeeper/
 
+```js
+assumptions you can make:
+
+The table name in supabase is `games`
+
+The games are stored in the database using this data model:
+{
+   name1: ,
+   name2: ,
+   score1: ,
+   score2: ,
+}
+```
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
