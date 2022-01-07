@@ -71,10 +71,10 @@ finishGameButton.addEventListener('click', () => {
 function displayCurrentGameEl() {
     // clear out the current game div
 
-    // change the label to show team one's name;
+    // change the label to show team one's name (note that the labels live outside the currentGameEl, so they won't be cleared out);
     // change the label to show team two's name;
 
-    // call the render game function to create a game element
+    // call the renderGame function to create a game element
     // (be sure to make a new object to pass to this function. do not declare the object in global scope and mutate it for reuse)
 
     // append the element to the cleared out current game div
