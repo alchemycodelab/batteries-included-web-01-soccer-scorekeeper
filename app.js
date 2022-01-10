@@ -28,14 +28,14 @@ nameForm.addEventListener('submit', (e) => {
 
     // reset the form values
 
-    refreshCurrentGameEl();
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 
 teamOneAddButton.addEventListener('click', () => {
     // increment the current state for team one's score
     
-    refreshCurrentGameEl();
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 teamTwoAddButton.addEventListener('click', () => {
@@ -47,24 +47,28 @@ teamTwoAddButton.addEventListener('click', () => {
 teamOneSubtractButton.addEventListener('click', () => {
     // decrement the current state for team one's score
 
-    refreshCurrentGameEl();
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 teamTwoSubtractButton.addEventListener('click', () => {
     // decrement the current state for team two's score
 
-    refreshCurrentGameEl();
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 finishGameButton.addEventListener('click', () => {
     
     // add the current game to an array of games in state
     // it will be helpful to keep track of these games as objects with 4 properties, one for each piece of state we're tracking
-    // (be sure to make a new object. do not declare the objecti n global scope and mutate it for reuse)
+    // for example, make an object like this: { name1: 'ducks', name2: 'bears' ,score1: 1, score2: 2 } 
+    // then push it to your array in state
+    // (be sure to make a new object. do not declare the object in global scope and mutate it for reuse. This would cause difficult bugs)
+    
     displayAllGames();
 
-    // reset the initial state to start with a new form
-    refreshCurrentGameEl();
+    // reset the state to zero and empty strings
+    
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 function refreshCurrentGameEl() {
