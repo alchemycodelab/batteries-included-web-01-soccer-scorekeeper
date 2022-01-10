@@ -28,32 +28,32 @@ nameForm.addEventListener('submit', (e) => {
 
     // reset the form values
 
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
 
 teamOneAddButton.addEventListener('click', () => {
     // increment the current state for team one's score
     
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
 teamTwoAddButton.addEventListener('click', () => {
     // increment the current state for team two's score
 
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
 teamOneSubtractButton.addEventListener('click', () => {
     // decrement the current state for team one's score
 
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
 teamTwoSubtractButton.addEventListener('click', () => {
     // decrement the current state for team two's score
 
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
 finishGameButton.addEventListener('click', () => {
@@ -64,20 +64,23 @@ finishGameButton.addEventListener('click', () => {
     displayAllGames();
 
     // reset the initial state to start with a new form
-
-    displayCurrentGameEl();
+    refreshCurrentGameEl();
 });
 
-function displayCurrentGameEl() {
-    // clear out the current game div
+function refreshCurrentGameEl() {
+    currentGameEl.textContent = '';
 
-    // change the label to show team one's name (note that the labels live outside the currentGameEl, so they won't be cleared out);
-    // change the label to show team two's name;
+    teamOneLabel.textContent = name1;
+    teamTwoLabel.textContent = name2;
 
-    // call the renderGame function to create a game element
-    // (be sure to make a new object to pass to this function. do not declare the object in global scope and mutate it for reuse)
+    // const gameEl = . . . 
+    // make a new gameEl here by calling renderGame with the approriate arguments. 
+    // Check the renderGame function declaration in render-utils.js to figure out the correct arguments to pass to this function 
+    // In render-utils.js as yourself: How many arguments does the function take? What order does it take them in?
+    
+    gameEl.classList.add('current');
 
-    // append the element to the cleared out current game div
+    currentGameEl.append(gameEl);
 }
 
 
@@ -85,5 +88,6 @@ function displayAllGames() {
     // clear out the past games list in the DOM
 
     // loop through the past games in state
-    // render and append a past game for each past game in state
+    // use the renderGame function to render and append a past game for each past game in state
+    // again, review the renderGame function in render-utils.js. How many arguments does it take? What order does it take them in?
 }
