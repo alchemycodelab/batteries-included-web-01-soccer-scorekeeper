@@ -35,7 +35,5 @@ https://alchemycodelab.github.io/web-01-soccer-scorekeeper/
 
 | Functions                                                              |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| IMPURE: `displayCurrentGameEl()` | 1|
-| IMPURE: `displayAllGames()` : clears out and appends to games div | 1|
-| PURE: `renderGame(game)` : returns DOM node | 1|
-| PURE: `renderTeam(name, score)` :  return DOM node | 1|
+| IMPURE: `displayCurrentGameEl()` | 2|
+| IMPURE: `displayAllGames()` : clears out and appends to games div |2|
