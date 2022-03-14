@@ -19,7 +19,7 @@ let name2 =  '';
 let score1 = 0;
 let score2 = 0;
 
-nameFormButton.addEventListener('click', (e) => {
+nameFormButton.addEventListener('click', () => {
     // get the name data from the form
 
     // set the state to this data from the form
