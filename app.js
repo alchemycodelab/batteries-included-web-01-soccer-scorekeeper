@@ -39,7 +39,7 @@ teamOneAddButton.addEventListener('click', () => {
 teamTwoAddButton.addEventListener('click', () => {
     // increment the current state for team two's score
 
-    refreshCurrentGameEl();
+    // refresh the current game element with new data by calling the appropriate function
 });
 
 teamOneSubtractButton.addEventListener('click', () => {
