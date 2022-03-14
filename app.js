@@ -3,7 +3,7 @@ import { renderGame } from './render-utils.js';
 const currentGameEl = document.getElementById('current-game-container');
 const pastGamesEl = document.getElementById('past-games-container');
 
-const nameForm = document.getElementById('name-form');
+const nameFormButton = document.getElementById('name-form-button');
 const teamOneAddButton = document.getElementById('team-one-add-button');
 const teamTwoAddButton = document.getElementById('team-two-add-button');
 const teamOneSubtractButton = document.getElementById('team-one-subtract-button');
@@ -19,9 +19,7 @@ let name2 =  '';
 let score1 = 0;
 let score2 = 0;
 
-nameForm.addEventListener('submit', (e) => {
-    // don't forget to prevent the default form behavior!
-
+nameFormButton.addEventListener('click', (e) => {
     // get the name data from the form
 
     // set the state to this data from the form
