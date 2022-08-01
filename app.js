@@ -69,7 +69,7 @@ finishGameButton.addEventListener('click', () => {
     // refresh the current game element with new data by calling the appropriate function
 });
 
-function refreshCurrentGameEl() {
+function dispayCurrentGameEl() {
     currentGameEl.textContent = '';
 
     teamOneLabel.textContent = name1;
