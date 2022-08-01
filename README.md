@@ -26,7 +26,7 @@ https://alchemycodelab.github.io/web-01-soccer-scorekeeper/
 
 | Events                                                                               |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| On load, see a form and empty current game div                                             |        1 |
+| On load, see a form and empty list of past games                                             |        1 |
 | On clicking the 'add names' button, add the team names to the current game div.  Call `displayCurrentGameEl` to do this DOM work                                   |        1 |
 | On clicking add or subtract, increment and decrement the correct score in the current game div. Call `displayCurrentGameEl` to do this DOM work |     1 |
 | On clicking finish, empty the current game div and add the current game to the "past games" div. All past games should be visible in this div. Call `displayAllGames` to do this DOM work. |2|
