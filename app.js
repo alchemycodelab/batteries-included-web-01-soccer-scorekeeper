@@ -75,12 +75,13 @@ function dispayCurrentGameEl() {
     teamOneLabel.textContent = name1;
     teamTwoLabel.textContent = name2;
 
-    // const gameEl = . . . 
+    const gameEl = ''
     // make a new gameEl here by calling renderGame with the approriate arguments. 
     // Check the renderGame function declaration in render-utils.js to figure out the correct arguments to pass to this function 
     // In render-utils.js as yourself: How many arguments does the function take? What order does it take them in?
     
-    gameEl.classList.add('current');
+    // add the 'current' class to the gameEl 
+    // gameEl.classList.add('current');
 
     currentGameEl.append(gameEl);
 }
